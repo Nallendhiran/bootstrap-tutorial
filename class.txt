@@ -1,0 +1,180 @@
+for heading{
+    page-header;
+}
+for text{
+    text-primary,text-info,text-warning,text-danger
+    ,text-success,text-muted;
+    for text-align{
+        text-center,text-left,text-right;
+    }
+}
+for col{
+    col-md-12;
+    col-md-6,col-md-6;
+    pull-left;
+    pull-right;
+}
+for gadgets{
+    xs-phones
+    md-desktops
+    sm-tablets
+    lg-long desktops
+}
+for button color{
+    btn btn-default,btn-primary,btn-info,btn-danger
+        btn-success,btn-warning;
+}
+for button size{
+    btn btn-lg,btn-sm,btn-xs,btn-md;
+}
+for button class{
+    active,disabled
+}
+for table{
+    table,table-striped,table-hover,table-bordered,table-condensed;
+}
+for image{
+    img-rounded,img-circle,img-thumbnail,img-responsive;
+}
+for button-group,batch{
+    btn,btn-group, btn-group-lg,btn-primary,btn-group;
+    badge;
+}
+for nav bar{
+    nav,nav-stacked;
+}
+for list-group{
+    list-group;
+    list-group-item;
+    list-group-item-success;
+    list-group-items-heading;
+    list-group-items-text;
+}
+for navbar in top{
+    navbar;
+    navbar-static-top;
+    navbar-text;
+    navbar-inverse,navbar-default;
+    navbar-fixed-top;
+    container-fluid;
+    navbar-header;
+    navbar-brand;
+    nav navbar-nav;
+    nav-item;
+    navbar-toggler;navbar-toggler-icon;
+    for navigation items
+    navbar-right;
+    for collapse{
+        collapse navbar-collapse;
+
+    }
+}
+
+jquery{
+    data-toggle="collapse";
+    data-target="#{ourid};
+}
+
+for collapse{
+    thumbnail;
+    caption;
+}
+
+for alert{
+    alert;
+    alert-primary;
+    dta-dismiss="alert";
+    aria-label="close";
+    fade in;
+    close;
+    alert-dismissible;
+    alert-link;
+}
+for dialog imgbox{
+    modal fade,role="dialog",id
+    modal-dialog;
+    modal-content;
+    modal-body;
+}
+for progress{
+    progress,
+    progress-bar
+    progress-bar-striped
+    progress-bar-primary
+}
+for pagination{
+    pagination;
+    ul ,li;
+    active
+}
+for pager{
+    pager;
+    active;
+    ul,liprevious next
+}
+for form{
+    form-group;
+    form-label;
+    control-label;//for label
+    form-control;// for text
+    col-md-offset-2,col-md-4;
+    form-horizontal;
+    form-inline;
+}
+for input{
+    radio-inline;
+    checkbox-inline;
+    has-success;
+    has-feedback;
+}
+
+for panel{
+    panel-group;
+    panel panel-info;
+    panel-heading;
+    panel-title;
+    panel-body;
+
+}
+for pills{
+    nav-pills;
+    nav-stacked;
+    nav-justified;
+}
+for breadcrumb{
+    breadcrumb;
+    downside of the paragraph like tutorial;
+}
+for dropdown{
+    dropdown;
+    dropup;
+    dropdown-toggle;
+    dropdown-header;
+    dropdown-menu;
+    dropdown-menu-header;
+    data-toggle="dropdown";
+}
+
+for carousel{
+    carousel slide;
+    data-ride="carousel";
+    carousel-indicators;
+    data-target,data-slide-to=,active;
+    carousel-inner;
+    item;
+    left carousel-control;
+    right carousel-control;
+    sr-only;
+    data-slide="prev";
+    data-slide="next";
+}
+for input{
+    input-group-addon;
+}
+for media{
+    media;
+    media-list;
+    media-object;
+    media-body;
+    media-heading;
+}

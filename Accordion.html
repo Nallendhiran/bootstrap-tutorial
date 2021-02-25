@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row well">
+            <div class="col-lg-6">
+                <div class="panel-group" id="mine">
+                    <div class="panel panel-info">
+                        <img src="bike.jpg" width="50px" height="50px" class="img-responsive"/>
+                        <div class="panel-heading" >
+                            <div class="panel-title" style="background-color: rgb(80, 224, 224);">
+                                <h1>my first page</h1>
+                                <a href="#buttonwork" data-toggle="collapse"  data-parent="#mine"><button class="btn btn-info">Read More</button></a>
+                            </div>
+                        </div>
+                        <div class="collapse out panel-group" id="buttonwork">
+                            <p class="panel-body">
+                                Lorem ipsum, or lipsum as it is sometimes known,
+                                is dummy text used in laying out print, graphic or web 
+                                designs. The passage is attributed to an unknown typesetter
+                                in the 15th century who is thought to have scrambled parts
+                                of Cicero's De Finibus
+                                Bonorum et Malorum for use in a type specimen book.
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                
+            </div>
+            <div class="col-lg-2">
+                2 column
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

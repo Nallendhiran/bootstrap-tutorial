@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center text-info">
+            <h1 class="page-header">Image Gallery</h1>
+            <p>store your images here..</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center" style="background-color: rgb(23, 133, 122);">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-xs-12 col-sm-7">
+                    <a href="" class="thumbnail">
+                        <img src="bike.jpg" class="img-responsive" alt="image" width="300px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" role="dialog" id="dialogbox">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="" id="imgsource">
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(window).load(function(){
+            $('img').on('click',function(){
+                var source=$(this).attr('src');
+                $('imgsource').attr('src',source);
+                $('#dialogbox').modal('show');
+            });
+        });
+    </script>
+    
+</body>
+</html>
